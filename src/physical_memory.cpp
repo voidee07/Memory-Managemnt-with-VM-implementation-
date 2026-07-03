@@ -162,10 +162,13 @@ void PhysicalMemory::stats() const {
 
     std::size_t free_memory = total_size_ - used_memory_;
     std::size_t largest_free = 0;
+    std::size_t free_block_count = 0;
 
     for (const auto &blk : blocks_) {
-        if (blk.free)
+        if (blk.free) {
             largest_free = std::max(largest_free, blk.size);
+            free_block_count++;
+        }
     }
 
     double external_frag = 0.0;
@@ -178,6 +181,7 @@ void PhysicalMemory::stats() const {
     std::cout << "Total memory: " << total_size_ << "\n";
     std::cout << "Used memory: " << used_memory_ << "\n";
     std::cout << "Free memory: " << free_memory << "\n";
+    std::cout << "Free blocks: " << free_block_count << "\n";
     std::cout << "Memory utilization: " << utilization * 100 << "%\n";
     std::cout << "External fragmentation: " << external_frag * 100 << "%\n";
     std::cout << "Alloc requests: " << total_alloc_requests_ << "\n";

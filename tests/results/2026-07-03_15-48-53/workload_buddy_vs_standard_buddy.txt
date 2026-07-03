@@ -1,0 +1,69 @@
+﻿memsim> Initialized memory of size 1024
+memsim> Switched to Buddy Allocator
+memsim> Allocated block id=1
+memsim> Allocated block id=2
+memsim> Allocated block id=3
+memsim> Allocated block id=4
+memsim> Allocated block id=5
+memsim> Allocated block id=6
+memsim> Allocated block id=7
+memsim> Allocated block id=8
+memsim> Allocated block id=9
+memsim> Allocated block id=10
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Allocated block id=11
+memsim> Allocated block id=12
+memsim> Allocated block id=13
+memsim> Allocation failed
+memsim> Allocated block id=14
+memsim> Buddy Allocator Stats
+Total memory: 1024
+Used memory: 888
+Requested memory: 616
+Free memory: 136
+Free blocks: 2
+Memory utilization: 86.7188%
+Internal fragmentation: 30.6306%
+External fragmentation: 5.88235%
+Alloc requests: 15
+Successful allocs: 14
+Failed allocs: 1
+memsim> Buddy Free Lists:
+Order 0 (size 1): 
+Order 1 (size 2): 
+Order 2 (size 4): 
+Order 3 (size 8): 24 
+Order 4 (size 16): 
+Order 5 (size 32): 
+Order 6 (size 64): 
+Order 7 (size 128): 384 
+Order 8 (size 256): 
+Order 9 (size 512): 
+Order 10 (size 1024): 
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Invalid block id
+memsim> Buddy Allocator Stats
+Total memory: 1024
+Used memory: 0
+Requested memory: 0
+Free memory: 1024
+Free blocks: 0
+Memory utilization: 0%
+Internal fragmentation: 0%
+External fragmentation: 100%
+Alloc requests: 15
+Successful allocs: 14
+Failed allocs: 1
+memsim> 

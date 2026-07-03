@@ -1,0 +1,40 @@
+init memory 4096
+malloc 64
+malloc 64
+malloc 64
+malloc 64
+malloc 64
+malloc 64
+malloc 64
+malloc 64
+malloc 64
+malloc 64
+malloc 64
+malloc 64
+malloc 64
+malloc 64
+malloc 64
+malloc 64
+malloc 64
+malloc 64
+malloc 64
+malloc 64
+free 1
+free 3
+free 5
+free 7
+free 9
+free 11
+free 13
+free 15
+free 17
+free 19
+stats
+dump
+malloc 128
+stats
+malloc 200
+stats
+malloc 64
+stats
+exit

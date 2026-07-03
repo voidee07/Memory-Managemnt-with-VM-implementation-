@@ -7,7 +7,8 @@ BuddyAllocator::BuddyAllocator()
     : total_size_(0),
       max_order_(0),
       next_id_(1),
-      used_memory_(0), 
+      used_memory_(0),
+      requested_memory_(0),
       total_alloc_requests_(0),
       successful_allocs_(0),
       failed_allocs_(0) {}
@@ -61,6 +62,7 @@ bool BuddyAllocator::init(std::size_t total_size) {
     next_id_ = 1;
 
     used_memory_ = 0;
+    requested_memory_ = 0;
     total_alloc_requests_ = 0;
     successful_allocs_ = 0;
     failed_allocs_ = 0;
@@ -94,7 +96,7 @@ int BuddyAllocator::allocate_block(int order) {
     free_lists_[order].pop_front();
 
     int id = next_id_++;
-    allocated_[id] = {addr, order};
+    allocated_[id] = {addr, order, 0}; // requested_size filled by malloc()
 
     used_memory_ += order_to_size(order);
     successful_allocs_++;
@@ -121,6 +123,10 @@ int BuddyAllocator::malloc(std::size_t size) {
     int id = allocate_block(order);
     if (id == -1) {
         failed_allocs_++;
+    } else {
+        // Store original request size for internal fragmentation tracking
+        allocated_[id] = {allocated_[id].addr, allocated_[id].order, size};
+        requested_memory_ += size;
     }
 
     return id;
@@ -186,12 +192,14 @@ bool BuddyAllocator::free_block(int id) {
     if (it == allocated_.end())
         return false;
 
-    std::size_t addr = it->second.first;
-    int order = it->second.second;
+    std::size_t addr = it->second.addr;
+    int order = it->second.order;
+    std::size_t req_size = it->second.requested_size;
 
     allocated_.erase(it);
 
     used_memory_ -= order_to_size(order);
+    requested_memory_ -= req_size;
 
     // attempt buddy coalescing
     try_coalesce(addr, order);
@@ -203,10 +211,12 @@ bool BuddyAllocator::free_block(int id) {
 void BuddyAllocator::stats() const {
     std::size_t free_memory = total_size_ - used_memory_;
     std::size_t largest_free = 0;
+    std::size_t free_block_count = 0;
 
     for (int i = 0; i <= max_order_; i++) {
         if (!free_lists_[i].empty()) {
             largest_free = std::max(largest_free, order_to_size(i));
+            free_block_count += free_lists_[i].size();
         }
     }
 
@@ -219,11 +229,19 @@ void BuddyAllocator::stats() const {
         external_frag = 1.0 - (double)largest_free / free_memory;
     }
 
+    double internal_frag = 0.0;
+    if (used_memory_ > 0 && requested_memory_ < used_memory_) {
+        internal_frag = (double)(used_memory_ - requested_memory_) / used_memory_;
+    }
+
     std::cout << "Buddy Allocator Stats\n";
     std::cout << "Total memory: " << total_size_ << "\n";
     std::cout << "Used memory: " << used_memory_ << "\n";
+    std::cout << "Requested memory: " << requested_memory_ << "\n";
     std::cout << "Free memory: " << free_memory << "\n";
+    std::cout << "Free blocks: " << free_block_count << "\n";
     std::cout << "Memory utilization: " << utilization * 100 << "%\n";
+    std::cout << "Internal fragmentation: " << internal_frag * 100 << "%\n";
     std::cout << "External fragmentation: " << external_frag * 100 << "%\n";
     std::cout << "Alloc requests: " << total_alloc_requests_ << "\n";
     std::cout << "Successful allocs: " << successful_allocs_ << "\n";

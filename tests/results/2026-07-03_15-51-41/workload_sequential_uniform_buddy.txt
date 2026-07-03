@@ -1,0 +1,98 @@
+﻿memsim> Initialized memory of size 4096
+memsim> Switched to Buddy Allocator
+memsim> Allocated block id=1
+memsim> Allocated block id=2
+memsim> Allocated block id=3
+memsim> Allocated block id=4
+memsim> Allocated block id=5
+memsim> Allocated block id=6
+memsim> Allocated block id=7
+memsim> Allocated block id=8
+memsim> Allocated block id=9
+memsim> Allocated block id=10
+memsim> Allocated block id=11
+memsim> Allocated block id=12
+memsim> Allocated block id=13
+memsim> Allocated block id=14
+memsim> Allocated block id=15
+memsim> Allocated block id=16
+memsim> Allocated block id=17
+memsim> Allocated block id=18
+memsim> Allocated block id=19
+memsim> Allocated block id=20
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Buddy Allocator Stats
+Total memory: 4096
+Used memory: 640
+Requested memory: 640
+Free memory: 3456
+Free blocks: 13
+Memory utilization: 15.625%
+Internal fragmentation: 0%
+External fragmentation: 40.7407%
+Alloc requests: 20
+Successful allocs: 20
+Failed allocs: 0
+memsim> Buddy Free Lists:
+Order 0 (size 1): 
+Order 1 (size 2): 
+Order 2 (size 4): 
+Order 3 (size 8): 
+Order 4 (size 16): 
+Order 5 (size 32): 
+Order 6 (size 64): 0 128 256 384 512 640 768 896 1024 1152 
+Order 7 (size 128): 
+Order 8 (size 256): 1280 
+Order 9 (size 512): 1536 
+Order 10 (size 1024): 
+Order 11 (size 2048): 2048 
+Order 12 (size 4096): 
+memsim> Allocated block id=21
+memsim> Buddy Allocator Stats
+Total memory: 4096
+Used memory: 768
+Requested memory: 768
+Free memory: 3328
+Free blocks: 13
+Memory utilization: 18.75%
+Internal fragmentation: 0%
+External fragmentation: 38.4615%
+Alloc requests: 21
+Successful allocs: 21
+Failed allocs: 0
+memsim> Allocated block id=22
+memsim> Buddy Allocator Stats
+Total memory: 4096
+Used memory: 1024
+Requested memory: 968
+Free memory: 3072
+Free blocks: 13
+Memory utilization: 25%
+Internal fragmentation: 5.46875%
+External fragmentation: 33.3333%
+Alloc requests: 22
+Successful allocs: 22
+Failed allocs: 0
+memsim> Allocated block id=23
+memsim> Buddy Allocator Stats
+Total memory: 4096
+Used memory: 1088
+Requested memory: 1032
+Free memory: 3008
+Free blocks: 12
+Memory utilization: 26.5625%
+Internal fragmentation: 5.14706%
+External fragmentation: 31.9149%
+Alloc requests: 23
+Successful allocs: 23
+Failed allocs: 0
+memsim> 

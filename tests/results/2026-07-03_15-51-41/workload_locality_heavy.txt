@@ -1,0 +1,141 @@
+﻿memsim> Initialized memory of size 4096
+memsim> L1 cache initialized
+memsim> L2 cache initialized
+memsim> Virtual memory initialized
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> L1 Cache Stats
+Hits: 45
+Misses: 3
+Hit Rate: 93.75%
+L2 Cache Stats
+Hits: 0
+Misses: 3
+Hit Rate: 0%
+memsim> Virtual Memory Stats
+Page hits: 47
+Page faults: 1
+Page evictions: 0
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 HIT
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> PAGE HIT ΓåÆ L1 MISS ΓåÆ L2 MISS ΓåÆ MEMORY ACCESS
+memsim> L1 Cache Stats
+Hits: 48
+Misses: 64
+Hit Rate: 42.8571%
+L2 Cache Stats
+Hits: 0
+Misses: 64
+Hit Rate: 0%
+memsim> Virtual Memory Stats
+Page hits: 108
+Page faults: 4
+Page evictions: 0
+memsim> 

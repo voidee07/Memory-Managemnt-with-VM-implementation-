@@ -39,14 +39,22 @@ private:
     //memory configuration
     std::size_t total_size_;
     int max_order_;
+    //info about an allocated block
+    struct AllocInfo {
+        std::size_t addr;
+        int order;
+        std::size_t requested_size;  // original size before power-of-two rounding
+    };
+
     //free lists: free_lists[k] = list of free blocks of size 2^k
     std::vector<std::list<std::size_t>> free_lists_;
-    //allocated blocks: id -> (address, order)
-    std::unordered_map<int, std::pair<std::size_t, int>> allocated_;
+    //allocated blocks: id -> AllocInfo
+    std::unordered_map<int, AllocInfo> allocated_;
     //bookkeeping
     int next_id_;
     //statistics
     std::size_t used_memory_;
+    std::size_t requested_memory_;  // sum of original request sizes (pre-rounding)
     std::size_t total_alloc_requests_;
     std::size_t successful_allocs_;
     std::size_t failed_allocs_;

@@ -1,0 +1,66 @@
+﻿memsim> Initialized memory of size 1024
+memsim> Switched to Physical Allocator (best_fit)
+memsim> Allocated block id=1
+memsim> Allocated block id=2
+memsim> Allocated block id=3
+memsim> Allocated block id=4
+memsim> Allocated block id=5
+memsim> Allocated block id=6
+memsim> Allocated block id=7
+memsim> Allocated block id=8
+memsim> Allocated block id=9
+memsim> Allocated block id=10
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Allocated block id=11
+memsim> Allocated block id=12
+memsim> Allocated block id=13
+memsim> Allocated block id=14
+memsim> Allocated block id=15
+memsim> Total memory: 1024
+Used memory: 866
+Free memory: 158
+Free blocks: 5
+Memory utilization: 84.5703%
+External fragmentation: 24.6835%
+Alloc requests: 15
+Successful allocs: 15
+Failed allocs: 0
+memsim> [0 - 9] USED (id=1)
+[10 - 29] USED (id=11)
+[30 - 42] FREE
+[43 - 92] USED (id=3)
+[93 - 191] USED (id=12)
+[192 - 192] FREE
+[193 - 199] USED (id=5)
+[200 - 254] USED (id=13)
+[255 - 264] FREE
+[265 - 464] USED (id=7)
+[465 - 479] FREE
+[480 - 609] USED (id=9)
+[610 - 859] USED (id=14)
+[860 - 904] USED (id=15)
+[905 - 1023] FREE
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Total memory: 1024
+Used memory: 0
+Free memory: 1024
+Free blocks: 1
+Memory utilization: 0%
+External fragmentation: 0%
+Alloc requests: 15
+Successful allocs: 15
+Failed allocs: 0
+memsim> 

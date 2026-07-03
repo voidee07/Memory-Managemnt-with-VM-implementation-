@@ -1,0 +1,93 @@
+﻿memsim> Initialized memory of size 4096
+memsim> Switched to Physical Allocator (first_fit)
+memsim> Allocated block id=1
+memsim> Allocated block id=2
+memsim> Allocated block id=3
+memsim> Allocated block id=4
+memsim> Allocated block id=5
+memsim> Allocated block id=6
+memsim> Allocated block id=7
+memsim> Allocated block id=8
+memsim> Allocated block id=9
+memsim> Allocated block id=10
+memsim> Allocated block id=11
+memsim> Allocated block id=12
+memsim> Allocated block id=13
+memsim> Allocated block id=14
+memsim> Allocated block id=15
+memsim> Allocated block id=16
+memsim> Allocated block id=17
+memsim> Allocated block id=18
+memsim> Allocated block id=19
+memsim> Allocated block id=20
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Block freed
+memsim> Total memory: 4096
+Used memory: 640
+Free memory: 3456
+Free blocks: 11
+Memory utilization: 15.625%
+External fragmentation: 18.5185%
+Alloc requests: 20
+Successful allocs: 20
+Failed allocs: 0
+memsim> [0 - 63] FREE
+[64 - 127] USED (id=2)
+[128 - 191] FREE
+[192 - 255] USED (id=4)
+[256 - 319] FREE
+[320 - 383] USED (id=6)
+[384 - 447] FREE
+[448 - 511] USED (id=8)
+[512 - 575] FREE
+[576 - 639] USED (id=10)
+[640 - 703] FREE
+[704 - 767] USED (id=12)
+[768 - 831] FREE
+[832 - 895] USED (id=14)
+[896 - 959] FREE
+[960 - 1023] USED (id=16)
+[1024 - 1087] FREE
+[1088 - 1151] USED (id=18)
+[1152 - 1215] FREE
+[1216 - 1279] USED (id=20)
+[1280 - 4095] FREE
+memsim> Allocated block id=21
+memsim> Total memory: 4096
+Used memory: 768
+Free memory: 3328
+Free blocks: 11
+Memory utilization: 18.75%
+External fragmentation: 19.2308%
+Alloc requests: 21
+Successful allocs: 21
+Failed allocs: 0
+memsim> Allocated block id=22
+memsim> Total memory: 4096
+Used memory: 968
+Free memory: 3128
+Free blocks: 11
+Memory utilization: 23.6328%
+External fragmentation: 20.4604%
+Alloc requests: 22
+Successful allocs: 22
+Failed allocs: 0
+memsim> Allocated block id=23
+memsim> Total memory: 4096
+Used memory: 1032
+Free memory: 3064
+Free blocks: 10
+Memory utilization: 25.1953%
+External fragmentation: 18.799%
+Alloc requests: 23
+Successful allocs: 23
+Failed allocs: 0
+memsim> 
